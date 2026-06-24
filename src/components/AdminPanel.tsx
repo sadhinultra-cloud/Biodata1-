@@ -110,7 +110,7 @@ export default function AdminPanel({ onDataChange }: AdminPanelProps) {
   const [isEditingPhoto, setIsEditingPhoto] = useState(false);
 
   // Whitelisted Emails defined inside specification & bootstrapped user runtime email
-  const ALLOWED_EMAILS = ['mahfujar003@gmail.com'];
+  const ALLOWED_EMAILS = ['mahfujar003@gmail.com', 'sadhinultra@gmail.com'];
 
   // Auth Status Monitor
   useEffect(() => {
@@ -513,7 +513,7 @@ export default function AdminPanel({ onDataChange }: AdminPanelProps) {
               </p>
               <div className="p-3 bg-purple-500/5 rounded-xl border border-purple-500/10 inline-block">
                 <p className="text-[11px] font-mono text-purple-300">
-                  Whitelisted Email: <span className="text-white font-semibold">mahfujar003@gmail.com</span>
+                  Whitelisted Email: <span className="text-white font-semibold">sadhinultra@gmail.com</span>
                 </p>
               </div>
               <p className="text-[10px] text-slate-500 font-sans">
